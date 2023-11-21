@@ -1,26 +1,32 @@
 @charset "utf-8";
 
 body {
-  margin: 0;
+  margin: 0px auto;
+  padding: 64px 0px;
   background: #d7e6da;
+  width: 1100px;
+  text-align: center;
+
+}
+html {
+  background-image: url("IMG_0555.jpg");
 }
 
 h1 {
   margin: 0;
-  padding-top: 64px;
   font-weight: normal;
+  font-size: 32px;
 }
 
 p {
   margin: 0;
+  font-size: 20px;
 }
 
 img {
- vertical-align: bottom;
- margin-top: 64px;
+ vertical-align: center;
+ margin: 64px;
  border-radius: 50%;
+ box-shadow: 0 0 16px gray;
 }
 
-div {
-  text-align: center;
-}
