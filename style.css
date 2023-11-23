@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+body {
+  margin: 0;
+}
+
 body table {
   margin: 0px auto;
   padding: 64px 0px;
@@ -25,7 +29,7 @@ p {
 }
 
 img {
- vertical-align: center;
+ vertical-align: bottom;
  margin: 64px;
  border-radius: 50%;
  box-shadow: 0 0 16px gray;
