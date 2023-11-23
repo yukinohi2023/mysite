@@ -1,13 +1,13 @@
 @charset "utf-8";
 
-body {
+body table {
   margin: 0px auto;
   padding: 64px 0px;
   background: #d7e6da;
-  width: 1100px;
+  width: 1000px;
   text-align: center;
-
 }
+
 html {
   background-image: url("IMG_0555.jpg");
 }
@@ -15,12 +15,13 @@ html {
 h1 {
   margin: 0;
   font-weight: normal;
-  font-size: 32px;
+  font-size: 36px;
+  color:#333;
 }
 
 p {
   margin: 0;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 img {
@@ -28,5 +29,16 @@ img {
  margin: 64px;
  border-radius: 50%;
  box-shadow: 0 0 16px gray;
+}
+
+.side {
+  vertical-align: top;
+  background:rgb(204, 238, 204);
+}
+
+ul {
+  line-height:3;
+  font-size: 15px;
+  background-color: #ccc; 
 }
 
